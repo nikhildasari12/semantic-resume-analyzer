@@ -1,30 +1,30 @@
 # Semantic Resume Analyzer
 
-AI-powered ATS Resume Analyzer that compares a resume against a job description using **semantic similarity (transformer embeddings)** and **keyword matching (TF-IDF)**.
+AI-powered ATS Resume Analyzer that compares a resume against a job description using semantic similarity (transformer embeddings) and keyword matching (TF-IDF).
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📄 Upload resumes in **PDF**, **DOCX**, or **TXT** format
-* 🧠 Compute semantic similarity using `all-MiniLM-L6-v2`
-* 🔍 Extract important keywords from the job description
-* ❌ Identify missing keywords in the resume
-* 📊 Generate:
+* Upload resumes in PDF, DOCX, or TXT format
+* Compute semantic similarity using `all-MiniLM-L6-v2`
+* Extract important keywords from the job description
+* Identify missing keywords in the resume
+* Generate:
 
   * Semantic Match Score
   * Keyword Match Percentage
   * Fit Level (Strong / Moderate / Low)
   * Personalized recommendations
-* 🌐 Interactive web interface built with Flask and Bootstrap
+* Interactive web interface built with Flask and Bootstrap
 
 ---
 
-## 🖼️ Demo
+## Demo
 
 ### Input
 
-* Upload your resume
+* Upload a resume
 * Paste a job description
 
 ### Output
@@ -36,7 +36,7 @@ AI-powered ATS Resume Analyzer that compares a resume against a job description 
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -61,7 +61,7 @@ AI-powered ATS Resume Analyzer that compares a resume against a job description 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 semantic-resume-analyzer/
@@ -78,7 +78,7 @@ semantic-resume-analyzer/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -111,7 +111,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Download spaCy Model
+### 4. Download the spaCy Model
 
 ```bash
 python -m spacy download en_core_web_sm
@@ -119,7 +119,7 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ```bash
 python app.py
@@ -133,7 +133,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📦 requirements.txt
+## Requirements
 
 ```txt
 Flask
@@ -147,7 +147,7 @@ torch
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. Resume Parsing
 
@@ -177,7 +177,7 @@ The system returns:
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ```json
 {
@@ -195,17 +195,17 @@ The system returns:
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 * ATS optimization
 * Resume tailoring for specific job descriptions
 * Career coaching tools
 * Recruitment and HR screening
-* NLP and semantic similarity demos
+* NLP and semantic similarity demonstrations
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 * PDF report generation
 * Authentication and user dashboards
@@ -217,7 +217,7 @@ The system returns:
 
 ---
 
-## 🌍 Deployment Options
+## Deployment Options
 
 * Render
 * Railway
@@ -227,7 +227,7 @@ The system returns:
 
 ---
 
-## 🧪 API Usage
+## API Usage
 
 ### Endpoint
 
@@ -248,9 +248,9 @@ JSON containing match score, keyword match, missing keywords, fit level, and rec
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
 1. Fork the repository
 2. Create a feature branch
@@ -260,13 +260,13 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Nikhil Dasari**
 
@@ -275,13 +275,13 @@ This project is licensed under the MIT License.
 
 ---
 
-## ⭐ Support
+## Support
 
-If you found this project useful, please consider giving it a star on GitHub.
+If you found this project useful, consider giving it a star on GitHub.
 
 ---
 
-## 🏷️ GitHub Topics
+## GitHub Topics
 
 ```text
 python flask nlp machine-learning sentence-transformers semantic-similarity spacy scikit-learn ats resume-analyzer
@@ -289,6 +289,6 @@ python flask nlp machine-learning sentence-transformers semantic-similarity spac
 
 ---
 
-## 💡 Project Summary
+## Project Summary
 
 Semantic Resume Analyzer is an end-to-end NLP application that helps job seekers optimize their resumes for Applicant Tracking Systems (ATS) using transformer embeddings and keyword analysis.
